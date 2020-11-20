@@ -1,0 +1,12 @@
+authorization:
+  policies:
+  - route: /api/updateuser
+    claims:
+    - urlPattern: /[0-9]*
+      urlClaim: /:userId
+      userRoleClaim: admin
+  - route: /api/fetchuser
+    claims:
+    - urlPattern: /[0-9]*
+      urlClaim: /:userId
+    
