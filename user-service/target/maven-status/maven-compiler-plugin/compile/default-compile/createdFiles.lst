@@ -1,0 +1,14 @@
+com\ing\service\UserService.class
+com\ing\entities\Address.class
+com\ing\entities\User.class
+com\ing\exception\UnAuthorizedUser.class
+com\ing\exception\UserNotFoundException.class
+com\ing\logging\LoggingAdvice.class
+com\ing\repositories\UserRepository.class
+com\ing\interceptor\UserInterceptor.class
+com\ing\interceptor\UserInterceptorConfig.class
+com\ing\controller\UserController.class
+com\ing\exception\UserControllerExceptionHandler.class
+com\ing\service\UserServiceImpl.class
+com\ing\exception\UserIDFormatException.class
+com\ing\UserserviceApplication.class
